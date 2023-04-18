@@ -15,7 +15,7 @@ spec:
       containers:
         - name: my-springboot-app
           image: careeraiacr.azurecr.io/careeraiacr:latest
-          imagePullPolicy: Always
+          imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8085
 # service type loadbalancer
